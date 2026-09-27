@@ -1,0 +1,6 @@
+{
+  "login":       { "hd": "login-hd.mp4",     "sd": "login-sd.mp4",     "poster": "login-poster.webp" },
+  "dashboard":   { "hd": "dashboard-hd.mp4", "sd": "dashboard-sd.mp4", "poster": "dashboard-poster.webp" },
+  "weather":     { "hd": "weather-hd.mp4",   "sd": "weather-sd.mp4",   "poster": "weather-poster.webp" },
+  "marketplace": { "hd": "market-hd.mp4",    "sd": "market-sd.mp4",    "poster": "market-poster.webp" }
+}

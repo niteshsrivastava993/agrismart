@@ -1,0 +1,15 @@
+{
+  "name": "agrismart",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev:ai": "uvicorn main:app --reload --port 8001 --app-dir python-ai-service",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test && npm --prefix client test",
+    "lint": "npm --prefix server run lint && npm --prefix client run lint",
+    "build": "npm --prefix client run build",
+    "doctor": "npm --prefix server run doctor"
+  }
+}
